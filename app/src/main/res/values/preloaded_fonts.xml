@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/amarante</item>
+        <item>@font/caveat</item>
+        <item>@font/caveat_bold</item>
+        <item>@font/covered_by_your_grace</item>
+        <item>@font/croissant_one</item>
+        <item>@font/flamenco</item>
+    </array>
+</resources>

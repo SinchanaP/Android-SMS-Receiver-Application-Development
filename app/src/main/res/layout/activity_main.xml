@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_image"
+        tools:ignore="ExtraText">
+        tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp"
+            android:fontFamily="@font/croissant_one"
+            android:text="SMS Reciever"
+            android:textColor="#100F10"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/smsnum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/amarante"
+            android:hint="Display SMS Number"
+            android:textColor="#0943D6"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/smsbody"
+            android:layout_width="930px"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/smsnum"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:background="@layout/border"
+            android:fontFamily="@font/flamenco"
+            android:hint="Display SMS Message"
+            android:justificationMode="inter_word"
+            android:textColor="#0943D6"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/dummy"
+            android:layout_width="wrap_content"
+            android:layout_height="200px"
+            android:layout_below="@+id/smsbody"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp" />
+
+    </RelativeLayout>
+</ScrollView>
